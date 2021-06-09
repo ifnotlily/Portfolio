@@ -1,5 +1,6 @@
 # Object file
 *.o
 
-# Ada Library Information
-*.ali
+# ignore .md files and node modules
+*.md
+node_modules/
