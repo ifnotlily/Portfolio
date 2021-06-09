@@ -1,82 +1,89 @@
 body {
- background: url(images/Headerbg.svg) no-repeat;
+  background: url(images/Headerbg.svg) no-repeat;
   background-size: auto;
   line-height: 1;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
-  }
+  font-family: "Poppins", sans-serif;
+}
 
-nav{
-width: 100;
-margin-bottom: 100px;
-margin-right: 120px;
-margin-left: 30px;
-margin-top: 0;
-clear:both;
-  } 
+nav {
+  width: 100;
+  margin-bottom: 100px;
+  margin-right: 120px;
+  margin-left: 30px;
+  margin-top: 0;
+  clear: both;
+}
 
- nav ul {
+nav ul {
   overflow: hidden;
   list-style: none;
   text-decoration: none;
-  
- }
- 
- ul.topnav li {
-list-style: none;
+}
+
+ul.topnav li {
+  list-style: none;
   float: left;
-   }
+}
 
-   ul.topnav li a {
-    display:block;
-    text-decoration: none;
-     text-align: center;
-     padding: 14px;
-   }
-   
- ul.topnav li.topnav-right {
+ul.topnav li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px;
+}
+
+ul.topnav li.topnav-right {
   float: right;
-    } 
+}
 
-   ul.topnav li.topnavlogo {
-       font-weight: bolder;
-    color: rgb(110, 187, 218);
-   }
+.topnav-logo {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+}
 
-   ul.topnav li.dropdownIcon {
-     display: none;
-   }
+ul.topnav li.topnavlogo {
+  font-weight: bolder;
+}
 
-   .flex-container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 130px;
-  }
+ul.topnav li.dropdownIcon {
+  display: none;
+}
 
- .name {
-    width: 420px;
-    height: 122px;
-  }
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+}
 
-  .description {
-    width: 520px;
-    height: 98px;
-  }
+.name {
+  width: 420px;
+  height: 122px;
+}
 
-.connect{
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #7F8CFF;
-text-decoration: none;
-margin-bottom: 20px;
+.description {
+  width: 520px;
+  height: 98px;
+}
+
+.connect {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .social-icons {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   width: 170px;
   margin: 0;
   padding: 0;
@@ -85,30 +92,30 @@ margin-bottom: 20px;
 }
 
 @media screen and (max-width: 680px) {
-  ul.topnav li:not(:nth-child(1)){
-    display:none;
+  ul.topnav li:not(:nth-child(1)) {
+    display: none;
   }
 
   ul.topnav li.dropdownIcon {
     display: block;
     float: right;
-     }
-     
-     body {
-      background: url(images/Headerbg.svg) no-repeat;
-       background-size: 327px;
-       line-height: 1;
-       margin: 0;
-       font-family: 'Poppins', sans-serif;
-       }
+  }
 
-     .flex-container {
-      display: flex;
-      flex-direction: column;
-      margin-left: 12px;
-    }
+  body {
+    background: url(images/Headerbg.svg) no-repeat;
+    background-size: 327px;
+    line-height: 1;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
 
-   .name {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+  }
+
+  .name {
     position: static;
     width: 327px;
     height: 150px;
@@ -117,31 +124,31 @@ margin-bottom: 20px;
     line-height: 52px;
     font-weight: bold;
     margin-bottom: 30px;
-        }
+  }
 
-    .description {
-      position: static;
-      width: 327px;
-      left: 24px;
-      font-size: 16px;
-      line-height: 24px;
-      color: #344563;
-      padding-bottom: 10px;
-          }
+  .description {
+    position: static;
+    width: 327px;
+    left: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    padding-bottom: 10px;
+  }
 
-  .connect{
+  .connect {
     position: static;
     width: 137px;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     margin-top: 60px;
-    color: #7F8CFF;
+    color: #7f8cff;
   }
-  
+
   .social-icons {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     width: 170px;
     margin: 0;
     padding: 0;
