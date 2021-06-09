@@ -33,9 +33,11 @@ list-style: none;
      text-align: center;
      padding: 14px;
    }
+   
  ul.topnav li.topnav-right {
   float: right;
     } 
+
    ul.topnav li.topnavlogo {
        font-weight: bolder;
     color: rgb(110, 187, 218);
@@ -50,14 +52,17 @@ list-style: none;
     flex-direction: column;
     margin-left: 130px;
   }
+
  .name {
     width: 420px;
     height: 122px;
   }
+
   .description {
     width: 520px;
     height: 98px;
   }
+
 .connect{
 font-family: Poppins;
 font-style: normal;
@@ -83,6 +88,7 @@ margin-bottom: 20px;
   ul.topnav li:not(:nth-child(1)){
     display:none;
   }
+
   ul.topnav li.dropdownIcon {
     display: block;
     float: right;
@@ -101,6 +107,7 @@ margin-bottom: 20px;
       flex-direction: column;
       margin-left: 12px;
     }
+
    .name {
     position: static;
     width: 327px;
@@ -111,6 +118,7 @@ margin-bottom: 20px;
     font-weight: bold;
     margin-bottom: 30px;
         }
+
     .description {
       position: static;
       width: 327px;
@@ -120,6 +128,7 @@ margin-bottom: 20px;
       color: #344563;
       padding-bottom: 10px;
           }
+
   .connect{
     position: static;
     width: 137px;
